@@ -1,4 +1,5 @@
-function timeCheck(str){
+
+module.exports = function(str){
     var date = Date.parse(str);
     if(date && isNaN(str))
         return { unix: date, natural: str };
