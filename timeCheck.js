@@ -12,11 +12,3 @@ module.exports = function(str){
     else
         return {unix: null, natural: null };
 }
-
-/*
-console.log(timeCheck(Date.parse('January 15, 2015').toString()));
-console.log(timeCheck('January 15, 2015'));
-console.log(timeCheck('67854'));
-console.log(timeCheck('hdfkjfhdf fddh'));
-console.log(timeCheck('January 50th, 2018'));
-*/
